@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/redax-app/static/css/main.e6c13ad2.css",
-    "main.js": "/redax-app/static/js/main.b7866ab6.js",
+    "main.css": "/redax-app/static/css/main.cc2bdef2.css",
+    "main.js": "/redax-app/static/js/main.0348b308.js",
     "static/media/l2.jpg": "/redax-app/static/media/l2.1c79b1f7064610a06775.jpg",
     "static/media/p1.jpg": "/redax-app/static/media/p1.4ed4ccca184485c902f0.jpg",
     "static/media/l1.jpeg": "/redax-app/static/media/l1.7d011f943bd678141f1d.jpeg",
     "static/media/l3.jpg": "/redax-app/static/media/l3.3796039999843061115f.jpg",
     "static/media/p2.jpg": "/redax-app/static/media/p2.d7b59775d3224f1b6f1d.jpg",
     "index.html": "/redax-app/index.html",
-    "main.e6c13ad2.css.map": "/redax-app/static/css/main.e6c13ad2.css.map",
-    "main.b7866ab6.js.map": "/redax-app/static/js/main.b7866ab6.js.map"
+    "main.cc2bdef2.css.map": "/redax-app/static/css/main.cc2bdef2.css.map",
+    "main.0348b308.js.map": "/redax-app/static/js/main.0348b308.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.b7866ab6.js"
+    "static/css/main.cc2bdef2.css",
+    "static/js/main.0348b308.js"
   ]
 }
