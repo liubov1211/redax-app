@@ -20,9 +20,8 @@ export default function PostList() {
               date={post.date}
               image={post.image}
               comment={post.comment}
-              retweet={post.retweet}
               likes={post.likes}
-              key={ post.id }/>
+             />
           )
         })}
       </div>

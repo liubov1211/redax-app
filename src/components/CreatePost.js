@@ -7,28 +7,28 @@ import l3 from "../assets/img/l3.jpg"
 
 const NEWPOSTS = [
   {
-    name: "Rey",
+    name: "Igor",
     avatar: l1,
-    nickname: "@Jakku",
-    image: "https://lumiere-a.akamaihd.net/v1/images/hb_disneyplus_skywalkersaga_mobile_19267_e964ed2c.jpeg?region=0,0,640,400",
+    nickname: "@Igor",
+    image: "https://tut-cikavo.com/images/Nauka/gsfdhsfhsrh.jpg",
   },
 
   {
-    name: "Mandalorian",
+    name: "Lilia",
     avatar: l2,
-    nickname: "@Mando",
-    image: "https://images-na.ssl-images-amazon.com/images/I/71bBDuXUvOL.jpg",
+    nickname: "@Lilia",
+    image: "https://cdnimg.rg.ru/img/content/193/00/48/dinozavr_d_850.jpg",
   },
 
   {
-    name: "BB8",
+    name: "Liza",
     avatar: l3,
-    nickname: "@droid",
-    image: "https://lumiere-a.akamaihd.net/v1/images/bb-8-main_72775463.jpeg?region=187%2C40%2C882%2C496",
+    nickname: "@Liza",
+    image: "https://zooblog.ru/wp-content/uploads/2021/01/joshua-j-cotten-uffvghtoqhc-unsplash-1140x694.jpg",
   }
 ]
 export default function CreatePost() {
-  const [name, setName] = useState("Rey")
+  const [name, setName] = useState("Igor")
   const [content, setContent] = useState("");
   const [image, setImage] = useState("");
 
@@ -58,7 +58,7 @@ export default function CreatePost() {
   };
 
   return (
-    <form className="post-new" onSubmit={onCreatePost}>
+    <form className="post" onSubmit={onCreatePost}>
       <select onChange={(e) => setName(e.target.value)}>
         {NEWPOSTS.map((post, index) => (
           <option value={post.name} key={index}>{post.name}</option>
